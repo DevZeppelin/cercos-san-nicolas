@@ -1,7 +1,7 @@
 import MainBarButton from "./MainBarButton";
 import { FaWhatsapp } from "react-icons/fa";
 import { FiMail } from "react-icons/fi";
-import { FaFacebook } from "react-icons/fa";
+import Link from "next/dist/client/link";
 
 const Footer = () => {
   return (
@@ -9,14 +9,20 @@ const Footer = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 md:p-6 space-y-8">
         <div className="flex justify-center my-auto">
           <div className="block">
-            <img
-              src="logo.png"
-              alt="building icon logo construcciones San Nicolás"
-              height="160"
-              width="280"
-              className="mx-auto"
-            />
-            <p className="text-lgreen text-xl mt-4 font-bold text-center">Cercos perimetrales y servicios generales</p>
+            <Link href="/">
+              <a href="">
+                <img
+                  src="logo.png"
+                  alt="building icon logo construcciones San Nicolás"
+                  height="160"
+                  width="280"
+                  className="mx-auto"
+                />
+                <p className="text-lgreen text-xl mt-4 font-bold text-center">
+                  Cercos perimetrales y servicios generales
+                </p>
+              </a>
+            </Link>
           </div>
         </div>
 
@@ -36,19 +42,17 @@ const Footer = () => {
               classType=""
             />
           </a>
-          <a
-            href="mailto:construmed@gmail.com"
-            target="_blank"
-            rel="noopener"
-          ><MainBarButton
-            logo={<FiMail className="text-lgreen text-2xl flex my-auto m-2" />}
-            text="Correo electrónico"
-            description="construmed@gmail.com"
-            classType=""
-          /></a>
+          <a href="mailto:cercossannicolas@gmail.com" target="_blank" rel="noopener">
+            <MainBarButton
+              logo={
+                <FiMail className="text-lgreen text-2xl flex my-auto m-2" />
+              }
+              text="Correo electrónico"
+              description="cercossannicolas@gmail.com"
+              classType=""
+            />
+          </a>
         </div>
-
-       
       </div>
       <div className="p-4 text-sm bg-black">
         Make with &#128153; in Mendoza, Argentina, by{" "}

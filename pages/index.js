@@ -27,11 +27,11 @@ export default function Home() {
       <Layout classHome={"bg-dgreen"}>
         <SectionWelcome />
         <section>
-          <div className="space-y-2 text-center p-12 px-8 md:px-32 pt-8 bg-lowContrast">
-            <h1 className="font-bold text-2xl tracking-wider text-dgreen">
+          <div className="space-y-2 text-center p-12 px-8 md:px-32 pt-8 bg-darkGray">
+            <h1 className="font-bold text-2xl tracking-wider text-lgreen">
               NO ESPERE A QUE LOS PRECIOS SUBAN O EL PROBLEMA SEA MAYOR
             </h1>
-            <p className="">
+            <p className="text-white">
               Contamos con personal calificado para construir proyectos que den
               valor agregado a su patrimonio, mejorar una imagen, solución
               rápida de un problema.

@@ -56,7 +56,7 @@ const Contacto = () => {
             <Fade big>
               <div>
                 <a
-                  href="mailto:construmed@gmail.com"
+                  href="mailto:cercossannicolas@gmail.com"
                   target="_blank"
                   rel="noopener"
                 >
@@ -65,7 +65,7 @@ const Contacto = () => {
                       <FiMail className="text-dgreen text-6xl flex my-auto m-4" />
                     }
                     text="Correo electrónico"
-                    description="construccionesmed@gmail.com"
+                    description="cercossannicolas@gmail.com"
                     classType="text-dgreen text-2xl my-2"
                   />
                 </a>

@@ -4,7 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 
 const TopLeyend = () => {
   return (
-    <div className="flex justify-center md:justify-between pt-2 text-darkGray md:bg-lightGray">
+    <div className="flex justify-center md:justify-between py-2 text-darkGray md:bg-lightGray">
       <div className="hidden md:flex px-12">
         <p className="text-sm font-extrabold tracking-widest my-auto uppercase">
          Hacemos realidad tus ideas
