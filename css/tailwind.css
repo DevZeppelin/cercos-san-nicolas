@@ -9,7 +9,7 @@
 }
 
 .btn:hover {
-    @apply bg-gray font-extrabold transform -translate-y-2 transition duration-500 cursor-pointer;
+    @apply bg-lgreen text-darkGray font-extrabold transform -translate-y-2 transition duration-500 cursor-pointer border-2 border-dgreen rounded-xl;
 }
 
 .service-h2 {
@@ -17,7 +17,7 @@
 }
 
 .indexGridImageText {
-    @apply w-full text-white border-b-2 border-dgreen h-10 absolute bg-gray bottom-0 z-10 py-3 hover:bg-dgreen uppercase font-bold transition duration-500;
+    @apply w-full text-white border-b-2 border-dgreen h-10 absolute bg-dgreen bottom-0 z-10 py-3 hover:bg-darkGray uppercase font-bold transition duration-500;
 }
 
 .gridImage {

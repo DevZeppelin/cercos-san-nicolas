@@ -28,8 +28,8 @@ const SectionWelcome = () => {
       <div>
         <div className="flex relative overflow-hidden md:grid md:grid-cols-2 text-lg px-8 md:px-24 bg-lightGray background-overlay">
           <div className="first-block space-y-4 md:space-y-5 p-10 my-auto bg-white z-40 opacity-80 md:opacity-100 h-full">
-            <h1 className="font-black text-2xl md:text-4xl font-prompt">
-              REPARAMOS Y REMODELAMOS TU CASA U OFICINA
+            <h1 className="font-black text-xl md:text-4xl">
+              SOMOS EXPERTOS EN CERCOS PERIMETRALES Y SERVICIOS EN GENERAL
             </h1>
             <div className="h-1 w-64 bg-dgreen mx-auto"></div>
             <p className="text-base">
@@ -38,8 +38,8 @@ const SectionWelcome = () => {
               remodelación y mantención. Realizamos trabajos para oficinas,
               empresas y para el hogar.{" "}
               <b>
-                Construcción de obras menores – Eléctricos – Pintores –
-                Soldadores – Albañiles – Carpinteros – Gasfitería
+                Construcción de obras menores - Cercos perimetrales – Pintura –
+                Carpinteros – Gasfitería - Plomería
               </b>
             </p>
             <Link href="/contacto"><button className="btn">Contáctanos hoy</button></Link>

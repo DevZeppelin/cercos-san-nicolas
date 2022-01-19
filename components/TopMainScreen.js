@@ -10,7 +10,7 @@ const TopMainScreen = () => {
       <Link href="/">
         <img
           src="logo.png"
-          alt="building icon logo construcciones med"
+          alt="building icon logo construcciones San Nicolás"
           height="160"
           width="280"
         />
@@ -21,13 +21,13 @@ const TopMainScreen = () => {
           logo={<FaWhatsapp className="text-dgreen text-4xl flex my-auto m-2" />}
           text="Whatsapp Chat"
           description="+5492616502121"
-          classType="text-dgreen"
+          classType="text-dgreen font-bold"
         />
         <MainBarButton
           logo={<FiMail className="text-dgreen text-4xl flex my-auto m-2" />}
           text="Correo electrónico"
           description="construccionesmed@gmail.com"
-          classType="text-dgreen"
+          classType="text-dgreen font-bold"
         />
 
         <Link href="/contacto">

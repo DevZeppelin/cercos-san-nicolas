@@ -15,15 +15,7 @@ const NavBar = ({ toggleNav, classHome, classQuienesSomos, classServicios, class
         <Link href="/servicios">
           <a className={`px-3 hover:bg-dgreen py-6 ${classServicios}`}>Servicios</a>
         </Link>
-
-        <a
-          className="px-3 hover:bg-dgreen py-6"
-          href="https://www.youtube.com/cosntruccionesMED"
-          target="_blank"
-          rel="noopener"
-        >
-          Videos
-        </a>
+        
 
         <Link href="/contacto">
           <a className={`px-3 hover:bg-dgreen py-6 ${classContacto}`}>Contactanos</a>

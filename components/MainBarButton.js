@@ -2,7 +2,7 @@
 
 const MainBarButton = ({ logo, text, description, classType }) => {
     return (
-        <div className="p-4 flex text-left cursor-pointer hover:border-dgreen">
+        <div className="p-4 flex text-left cursor-pointer hover:border-lgreen ">
             {logo}
             <div>
               <p className={classType}>{text}</p>

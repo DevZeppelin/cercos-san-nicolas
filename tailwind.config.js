@@ -19,12 +19,9 @@ module.exports = {
                 dgreen: '#1d5847',
                 lgreen: '#83c081'
             },
-            fontFamily : {
-                body : ['Heebo'],
-                'prompt' : ['Prompt']
-            },
+            
             backgroundImage: theme => ({
-                'hero': "url('/01-sm.png')",  
+                'hero': "url('/hero.jpg')",  
                 'hero-welcome1' : "url('/01-welcome.png')" ,             
                 'hero-welcome2' : "url('/02-welcome.png')"  ,            
                 'hero-welcome3' : "url('/03-welcome.png')"              

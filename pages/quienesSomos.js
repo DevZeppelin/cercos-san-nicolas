@@ -3,6 +3,7 @@ import Layout from "../components/Layout";
 import { BiCheckShield } from "react-icons/bi";
 import { FaEye } from "react-icons/fa";
 import Fade from "react-reveal/Fade";
+import PageTitle from "../components/PageTitle";
 
 const QuienesSomos = () => {
   return (
@@ -13,15 +14,13 @@ const QuienesSomos = () => {
       </Head>
       <Layout classQuienesSomos={"bg-dgreen"}>
         <section>
-          <div className="bg-hero bg-cover text-center py-28">
-            <h1 className="text-4xl font-bold">Quienes Somos</h1>
-          </div>
+         <PageTitle text="Quienes somos" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 py-8">
             <div className="text-center space-y-4 p-8 md:p-16">
               <h2 className="text-2xl font-extrabold">Nuestra empresa</h2>
               <div className="bg-dgreen w-32 h-1 mx-auto"></div>
               <p>
-                <b>Contrucciones MED</b> es una empresa dedicada a la
+                <b>Contrucciones San Nicolás</b> es una empresa dedicada a la
                 construcción de obras menores, reparación, remodelación y
                 mantención. Realizamos trabajos tanto para empresas y comercios
                 como para el hogar. Brindamos ideas, profesionalismo y servicios
@@ -33,7 +32,7 @@ const QuienesSomos = () => {
             <div>
               <img
                 src="01-sm.png"
-                alt="building icon logo construcciones med"
+                alt="building icon logo construcciones San Nicolás"
                 className=" border-2 border-gray"
               />
             </div>

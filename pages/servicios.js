@@ -6,6 +6,7 @@ import { RiBuilding2Line } from "react-icons/ri";
 import { MdBuild } from "react-icons/md"
 import { IoIosBulb } from "react-icons/io"
 import { GiBoltBomb } from "react-icons/gi"
+import PageTitle from "../components/PageTitle";
 
 const Servicios = () => {
   return (
@@ -16,9 +17,7 @@ const Servicios = () => {
       </Head>
       <Layout classServicios={"bg-dgreen"}>
         <div>
-          <div className="bg-hero bg-cover text-center py-28">
-            <h1 className="text-4xl font-bold">Servicios</h1>
-          </div>
+          <PageTitle text="Nuestros Servicios" />
           <div>
             <section className="text-black-400 body-font bg-gray-900">
               <div className="container px-5 py-16 mx-auto">
