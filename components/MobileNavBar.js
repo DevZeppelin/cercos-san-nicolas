@@ -8,17 +8,17 @@ const MobileNavBar = ({ open }) => {
     >
       <div className="flex text-right flex-col text-base p-2 text-background mb-5">
         <Link href="/">
-          <a className="mr-2  mt-2 px-3 hover:border-black">Home 🏠</a>
+          <a className="mr-2  mt-2 px-3 hover:border-black">Home</a>
         </Link>
         <Link href="/quienesSomos">
-          <a className="mr-2 mt-5 px-3 hover:border-black">Quienes somos 🙋‍♂️</a>
+          <a className="mr-2 mt-5 px-3 hover:border-black">Quienes somos</a>
         </Link>
         <Link href="/servicios">
-          <a className="mr-2 mt-5 px-3 hover:border-black">Servicios 🛠</a>
+          <a className="mr-2 mt-5 px-3 hover:border-black">Servicios</a>
         </Link>        
 
         <Link href="/contacto">
-          <a className="mr-2 mt-5 px-3 hover:border-black">Contactanos 📞</a>
+          <a className="mr-2 mt-5 px-3 hover:border-black">Contactanos</a>
         </Link>
       </div>
     </div>

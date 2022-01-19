@@ -22,9 +22,7 @@ module.exports = {
             
             backgroundImage: theme => ({
                 'hero': "url('/hero.jpg')",  
-                'hero-welcome1' : "url('/01-welcome.png')" ,             
-                'hero-welcome2' : "url('/02-welcome.png')"  ,            
-                'hero-welcome3' : "url('/03-welcome.png')"              
+                'hero2': "url('/hero2.jpg')"                     
                })
         },
         grayscale: {

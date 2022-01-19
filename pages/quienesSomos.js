@@ -31,9 +31,9 @@ const QuienesSomos = () => {
             </div>
             <div>
               <img
-                src="01-sm.png"
+                src="logo.png"
                 alt="building icon logo construcciones San Nicolás"
-                className=" border-2 border-gray"
+                
               />
             </div>
           </div>
@@ -57,7 +57,7 @@ const QuienesSomos = () => {
               <FaEye className="mx-auto text-4xl text-dgreen " />
               <h2 className="text-2xl">Nuestra Visión</h2>
               <p>
-              Estar al alcance de todos en la Región Metropolitana. Avanzar con liderazgo para ser una de las mejores opciones también en regiones. Transmitir valores como el respeto, responsabilidad, honestidad, calidad y eficiencia necesaria para lograr confianza.
+              Estar al alcance de todos en Mendoza. Avanzar con liderazgo para ser una de las mejores opciones también en regiones. Transmitir valores como el respeto, responsabilidad, honestidad, calidad y eficiencia necesaria para lograr confianza.
               </p>
             </div>
           </Fade>

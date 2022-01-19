@@ -1,13 +1,13 @@
 import { FiMail } from "react-icons/fi";
-import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
-import { FiYoutube } from "react-icons/fi";
+import { FaFacebook } from "react-icons/fa";
+
 
 const TopLeyend = () => {
   return (
     <div className="flex justify-center md:justify-between pt-2 text-darkGray md:bg-lightGray">
       <div className="hidden md:flex px-12">
-        <p className="text-base font-bold tracking-widest my-auto uppercase">
-          Cercos perimetrales y Servicios Generales
+        <p className="text-sm font-extrabold tracking-widest my-auto uppercase">
+         Hacemos realidad tus ideas
         </p>
       </div>
       <div>

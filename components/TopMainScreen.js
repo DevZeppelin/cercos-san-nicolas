@@ -7,14 +7,17 @@ import { FiMail } from "react-icons/fi";
 const TopMainScreen = () => {
   return (
     <div className="flex px-2 md:px-24 text-black justify-center md:justify-between py-2">
-      <Link href="/">
-        <img
-          src="logo.png"
-          alt="building icon logo construcciones San Nicolás"
-          height="160"
-          width="280"
-        />
-      </Link>
+      <div className="flex-col">
+        <Link href="/">
+          <img
+            src="logo.png"
+            alt="building icon logo construcciones San Nicolás"
+            height="160"
+            width="280"
+          />
+        </Link>
+          <p className="text-dgreen mb-2 font-bold text-center">Cercos perimetrales y servicios generales</p>
+      </div>
 
       <div className="hidden md:flex justify-between space-x-6 text-center my-auto p-6">
         <MainBarButton

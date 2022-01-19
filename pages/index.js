@@ -51,9 +51,9 @@ export default function Home() {
             <Fade bottom>
               <div className="relative">
                 <div className="indexGridContainer">
-                  <div className="indexGridImageText">Cercos perimetrales</div>
+                  <div className="indexGridImageText">Cercos de alambre</div>
                   <img
-                    src="01-sm.png"
+                    src="001.png"
                     alt="building icon logo construcciones San Nicolás"
                     className="gridImage imagen-filtro"
                   />
@@ -62,11 +62,19 @@ export default function Home() {
             </Fade>
             <Fade bottom>
               <div className="relative">
-                <div className="indexGridImageText">
-                  Construcciones en general
-                </div>
+                <div className="indexGridImageText">Cercos de material</div>
                 <img
-                  src="01-sm.png"
+                  src="002.png"
+                  alt="building icon logo construcciones San Nicolás"
+                  className="gridImage imagen-filtro"
+                />
+              </div>
+            </Fade>
+            <Fade bottom>
+              <div className="relative">
+                <div className="indexGridImageText">Cercos rústicos</div>
+                <img
+                  src="003.png"
                   alt="building icon logo construcciones San Nicolás"
                   className="gridImage imagen-filtro"
                 />
@@ -75,10 +83,10 @@ export default function Home() {
             <Fade bottom>
               <div className="relative">
                 <div className="indexGridImageText">
-                  Remodelaciones y ampliaciones
+                  Obras menores
                 </div>
                 <img
-                  src="01-sm.png"
+                  src="004.png"
                   alt="building icon logo construcciones San Nicolás"
                   className="gridImage imagen-filtro"
                 />
@@ -87,10 +95,34 @@ export default function Home() {
             <Fade bottom>
               <div className="relative">
                 <div className="indexGridImageText">
-                  Servicio de plomería
+                  Construcción en general
                 </div>
                 <img
-                  src="01-sm.png"
+                  src="005.png"
+                  alt="building icon logo construcciones San Nicolás"
+                  className="gridImage imagen-filtro"
+                />
+              </div>
+            </Fade>
+            <Fade bottom>
+              <div className="relative">
+                <div className="indexGridImageText">
+                  Plomería
+                </div>
+                <img
+                  src="006.png"
+                  alt="building icon logo construcciones San Nicolás"
+                  className="gridImage imagen-filtro"
+                />
+              </div>
+            </Fade>
+            <Fade bottom>
+              <div className="relative">
+                <div className="indexGridImageText">
+                  Cañerías de gas y agua
+                </div>
+                <img
+                  src="007.png"
                   alt="building icon logo construcciones San Nicolás"
                   className="gridImage imagen-filtro"
                 />
@@ -112,19 +144,21 @@ export default function Home() {
             </Fade>
           </div>
         </section>
+
         <section>
-          <div className="p-8 md:p-32 py-32  font-bold text-black text-center bg-cover bg-hero bg-fixed grid grid-cols-1 md:grid-cols-2">
+          <div className="p-8 md:p-32 py-32  font-bold text-black text-center bg-cover bg-hero2 bg-fixed grid grid-cols-1 md:grid-cols-2">
             <div></div>
-            <div className="space-y-6">
+            <div className="space-y-6 bg-lgreen bg-opacity-50 p-12 rounded-2xl">
               <h2 className="text-3xl fadeIn">
                 Empresa de Cercos y Servicios Generales en Mendoza
               </h2>
               <p className="text-lg">
-                Somos especialistas en instalar Cercos Perimetrales, servicios de reparación, construcción,
-                ampliación y remodelación para la empresa y el hogar
+                Somos especialistas en instalar Cercos Perimetrales, servicios
+                de reparación, construcción, ampliación y remodelación para la
+                empresa y el hogar
               </p>
               <Link href="/contacto">
-                <Fade right>
+                <Fade left>
                   <button className="btn uppercase">
                     Reservá una visita con nosotros
                   </button>
@@ -133,6 +167,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+
         <section>
           <div className="text-center pt-16">
             <h2 className="text-3xl font-bold pb-12">¿Por qué elegirnos?</h2>

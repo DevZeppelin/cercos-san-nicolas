@@ -36,11 +36,10 @@ const Servicios = () => {
                       <FaTools className="mx-auto text-3xl text-dgreen"/>
                       </div>
                       <h2 className="service-h2">
-                        Construcciones menores
+                       Cercos perimetrales
                       </h2>
                       <p className="leading-relaxed text-base">
-                        Fingerstache flexitarian street art 8-bit waist co,
-                        subway tile poke farm.
+                        Ya sea de alambre, material o madera, brindamos excelencia en nuestro trabajos para la tranquilidad y confianza del cliente
                       </p>
                     </div>
                   </div>
@@ -50,11 +49,10 @@ const Servicios = () => {
                       <AiOutlineBuild className="mx-auto text-3xl text-dgreen"/>
                       </div>
                       <h2 className="service-h2">
-                       Ampliaciones
+                      Obras en general
                       </h2>
                       <p className="leading-relaxed text-base">
-                        Fingerstache flexitarian street art 8-bit waist co,
-                        subway tile poke farm.
+                       Nuestros profesionales se encuentran capacitados para encarar diversos desafíos que logren brindar soluciones al cliente.
                       </p>
                     </div>
                   </div>
@@ -64,11 +62,10 @@ const Servicios = () => {
                       <RiBuilding2Line className="mx-auto text-3xl text-dgreen"/>
                       </div>
                       <h2 className="service-h2">
-                        Remodelaciones
+                        Instalación de cañerías
                       </h2>
                       <p className="leading-relaxed text-base">
-                        Fingerstache flexitarian street art 8-bit waist co,
-                        subway tile poke farm.
+                        Utilizando lo último en tecnología, ofrecemos servicios de excelencia en cuanto a la isntalación de cañerías ya sea de agua o gas
                       </p>
                     </div>
                   </div>
@@ -78,42 +75,14 @@ const Servicios = () => {
                       <MdBuild className="mx-auto text-3xl text-dgreen"/>
                       </div>
                       <h2 className="service-h2">
-                        Construcción en seco
+                        Servicio de plomería
                       </h2>
                       <p className="leading-relaxed text-base">
-                        Fingerstache flexitarian street art 8-bit waist co,
-                        subway tile poke farm.
+                       Nuestros profesionales están capacitados para realizar obras de plomería que garanticen soluciones eficientes a los clientes
                       </p>
                     </div>
                   </div>
-                  <div className="xl:w-1/3 md:w-1/2 p-4">
-                    <div className="text-center hover:bg-lowContrast hover:text-black border border-gray-700 border-opacity-75 p-6 rounded-lg">
-                      <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-4">
-                      <IoIosBulb className="mx-auto text-3xl text-dgreen"/>
-                      </div>
-                      <h2 className="service-h2">
-                       Plomería y electricidad
-                      </h2>
-                      <p className="leading-relaxed text-base">
-                        Fingerstache flexitarian street art 8-bit waist co,
-                        subway tile poke farm.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="xl:w-1/3 md:w-1/2 p-4">
-                    <div className="border border-gray-700 border-opacity-75 p-6 rounded-lg hover:bg-lowContrast hover:text-black text-center">
-                      <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-gray-800 text-indigo-400 mb-4">
-                      <GiBoltBomb className="mx-0 text-3xl text-dgreen"/>
-                      </div>
-                      <h2 className="service-h2">
-                       Demoliciones
-                      </h2>
-                      <p className="leading-relaxed text-base">
-                        Fingerstache flexitarian street art 8-bit waist co,
-                        subway tile poke farm.
-                      </p>
-                    </div>
-                  </div>
+                 
                 </div>
                 
               </div>
