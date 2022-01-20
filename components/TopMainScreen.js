@@ -15,6 +15,7 @@ const TopMainScreen = () => {
               alt="building icon logo construcciones San Nicolás"
               height="160"
               width="280"
+              className="pt-2"
             />
             <p className="text-dgreen mb-2 font-bold text-center">Cercos perimetrales y servicios generales</p>
           </a>

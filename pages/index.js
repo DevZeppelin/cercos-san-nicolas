@@ -6,6 +6,7 @@ import { BsFillPersonCheckFill } from "react-icons/bs";
 import { FaRecycle, FaUserCog } from "react-icons/fa";
 import { AiOutlineStar } from "react-icons/ai";
 import Fade from "react-reveal/Fade";
+import GridComponent from "../components/GridComponent";
 
 export default function Home() {
   return (
@@ -49,84 +50,47 @@ export default function Home() {
               </div>
             </Fade>
             <Fade bottom>
-              <div className="relative">
-                <div className="indexGridContainer">
-                  <div className="indexGridImageText">Cercos de alambre</div>
-                  <img
-                    src="001.png"
-                    alt="building icon logo construcciones San Nicolás"
-                    className="gridImage imagen-filtro"
-                  />
-                </div>
-              </div>
+              <GridComponent
+                name="Cercos de alambre"
+                src="001.png"
+              />
+              
             </Fade>
             <Fade bottom>
-              <div className="relative">
-                <div className="indexGridImageText">Cercos de material</div>
-                <img
-                  src="002.png"
-                  alt="building icon logo construcciones San Nicolás"
-                  className="gridImage imagen-filtro"
-                />
-              </div>
+            <GridComponent
+                name="Cercos de material"
+                src="002.png"
+              />
             </Fade>
             <Fade bottom>
-              <div className="relative">
-                <div className="indexGridImageText">Cercos rústicos</div>
-                <img
-                  src="003.png"
-                  alt="building icon logo construcciones San Nicolás"
-                  className="gridImage imagen-filtro"
-                />
-              </div>
+            <GridComponent
+                name="Cercos rústicos"
+                src="003.png"
+              />
             </Fade>
             <Fade bottom>
-              <div className="relative">
-                <div className="indexGridImageText">
-                  Obras menores
-                </div>
-                <img
-                  src="004.png"
-                  alt="building icon logo construcciones San Nicolás"
-                  className="gridImage imagen-filtro"
-                />
-              </div>
+            <GridComponent
+                name="Obras en general"
+                src="004.png"
+              />
             </Fade>
             <Fade bottom>
-              <div className="relative">
-                <div className="indexGridImageText">
-                  Construcción en general
-                </div>
-                <img
-                  src="005.png"
-                  alt="building icon logo construcciones San Nicolás"
-                  className="gridImage imagen-filtro"
-                />
-              </div>
+            <GridComponent
+                name="Obras menores"
+                src="005.png"
+              />
             </Fade>
             <Fade bottom>
-              <div className="relative">
-                <div className="indexGridImageText">
-                  Plomería
-                </div>
-                <img
-                  src="006.png"
-                  alt="building icon logo construcciones San Nicolás"
-                  className="gridImage imagen-filtro"
-                />
-              </div>
+            <GridComponent
+                name="Servicio de plomería"
+                src="006.png"
+              />
             </Fade>
             <Fade bottom>
-              <div className="relative">
-                <div className="indexGridImageText">
-                  Cañerías de gas y agua
-                </div>
-                <img
-                  src="007.png"
-                  alt="building icon logo construcciones San Nicolás"
-                  className="gridImage imagen-filtro"
-                />
-              </div>
+            <GridComponent
+                name="Cañerías de agua y gas"
+                src="007.png"
+              />
             </Fade>
             <Fade bottom>
               <div className="m-6 space-y-4 md:space-y-4 text-center my-auto element">
@@ -224,16 +188,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* CSS Puro */}
-        <style jsx>{`
-          .imagen-filtro {
-            transition: all 0.4s ease;
-          }
-          .imagen-filtro:hover {
-            -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
-            filter: grayscale(100%);
-          }
-        `}</style>
+       
       </Layout>
     </div>
   );

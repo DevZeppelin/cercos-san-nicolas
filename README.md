@@ -1,4 +1,3 @@
-_App disponible en : https://construcciones-San Nicolás.vercel.app/_
 
 ## DevZeppelin WEBS 🚀
 
@@ -20,4 +19,4 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 * [ReactJS] - El mejor framework de JavaScript
 * [NextJS] - El mejor framework de React :)
-* [Tailwind CSS] - El mejor framework de CSS
+* [TailwindCSS] - El mejor framework de CSS

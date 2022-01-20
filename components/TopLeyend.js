@@ -1,5 +1,5 @@
 import { FiMail } from "react-icons/fi";
-import { FaFacebook } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 
 
 const TopLeyend = () => {
@@ -12,17 +12,17 @@ const TopLeyend = () => {
       </div>
       <div>
         <div className="text-xl space-x-3 pr-6">
+              
+          
           <a
-            href="https://www.facebook.com/Gini77o"
+            href="mailto:gino.b.pietrobon@gmail.com"
             target="_blank"
             rel="noopener"
           >
-            <button aria-label="go to my fabecook" alt="facebook-logo">
-              <FaFacebook className="hover:text-blue-600" />
+            <button aria-label="send me a mail" alt="gmail-logo">
+              <FaWhatsapp  className="hover:text-dgreen" />
             </button>
           </a>
-          
-          
           <a
             href="mailto:gino.b.pietrobon@gmail.com"
             target="_blank"

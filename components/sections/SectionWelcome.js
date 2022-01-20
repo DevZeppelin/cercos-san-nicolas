@@ -54,16 +54,16 @@ const SectionWelcome = () => {
                 <input type="radio" name="radio-btn" id="radio4" ref={radio4} />
                 {/*Slides images Start*/}
                 <div className="slide first">
-                  <img src="01.png" alt="" />
+                  <img src="01.webp" alt="" />
                 </div>
                 <div className="slide">
-                  <img src="02.png" alt="" />
+                  <img src="02.webp" alt="" />
                 </div>
                 <div className="slide">
-                  <img src="03.png" alt="" />
+                  <img src="03.webp" alt="" />
                 </div>
                 <div className="slide">
-                  <img src="04.png" alt="" />
+                  <img src="04.webp" alt="" />
                 </div>
                 {/*Automatic Navigation Start*/}
                 <div className="navigation-auto">
