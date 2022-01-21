@@ -50,47 +50,53 @@ export default function Home() {
               </div>
             </Fade>
             <Fade bottom>
-              <GridComponent
-                name="Cercos de alambre"
-                src="001.png"
-              />
-              
+              <Link href="/services/cercoAlambre">
+                <a href="">
+                  <GridComponent name="Cercos de alambre" src="001.png" />
+                </a>
+              </Link>
             </Fade>
             <Fade bottom>
-            <GridComponent
-                name="Cercos de material"
-                src="002.png"
-              />
+              <Link href="/services/cercoMaterial">
+                <a href="">
+                  <GridComponent name="Cercos de material" src="002.png" />
+                </a>
+              </Link>
             </Fade>
             <Fade bottom>
-            <GridComponent
-                name="Cercos rústicos"
-                src="003.png"
-              />
+              <Link href="/services/cercoRustico">
+                <a href="">
+                  <GridComponent name="Cercos rústicos" src="003.png" />
+                </a>
+              </Link>
             </Fade>
             <Fade bottom>
-            <GridComponent
-                name="Obras en general"
-                src="004.png"
-              />
+              <Link href="/services/obrasGeneral">
+                <a href="">
+                  <GridComponent name="Obras en general" src="004.png" />
+                </a>
+              </Link>
             </Fade>
             <Fade bottom>
-            <GridComponent
-                name="Obras menores"
-                src="005.png"
-              />
+              <Link href="/services/obrasMenores">
+                <a href="">
+                  <GridComponent name="Obras menores" src="005.png" />
+                </a>
+              </Link>
             </Fade>
             <Fade bottom>
-            <GridComponent
-                name="Servicio de plomería"
-                src="006.png"
-              />
+              <Link href="/services/plomeria">
+                <a href="">
+                  <GridComponent name="Servicio de plomería" src="006.png" />
+                </a>
+              </Link>
             </Fade>
             <Fade bottom>
-            <GridComponent
-                name="Cañerías de agua y gas"
-                src="007.png"
-              />
+              <Link href="/services/caneria">
+                <a href="">
+                  <GridComponent name="Cañerías de agua y gas" src="007.png" />
+                </a>
+              </Link>
             </Fade>
             <Fade bottom>
               <div className="m-6 space-y-4 md:space-y-4 text-center my-auto element">
@@ -187,8 +193,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-       
       </Layout>
     </div>
   );

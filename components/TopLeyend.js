@@ -1,4 +1,4 @@
-import { FiMail } from "react-icons/fi";
+import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { FaWhatsapp } from "react-icons/fa";
 
 
@@ -14,17 +14,26 @@ const TopLeyend = () => {
         <div className="text-xl space-x-3 pr-6">
               
           
+        <a
+                  href="https://api.whatsapp.com/send?phone=5492615579954"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+            <button aria-label="send me a mail" alt="gmail-logo">
+              <FiPhoneCall  className="hover:text-dgreen" />
+            </button>
+          </a>
           <a
-            href="mailto:gino.b.pietrobon@gmail.com"
-            target="_blank"
-            rel="noopener"
-          >
+                  href="https://api.whatsapp.com/send?phone=5492615637856"
+                  target="_blank"
+                  rel="noreferrer"
+                >
             <button aria-label="send me a mail" alt="gmail-logo">
               <FaWhatsapp  className="hover:text-dgreen" />
             </button>
           </a>
           <a
-            href="mailto:gino.b.pietrobon@gmail.com"
+            href="mailto:cercos.sannicolas@gmail.com"
             target="_blank"
             rel="noopener"
           >

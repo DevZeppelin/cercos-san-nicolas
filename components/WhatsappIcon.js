@@ -2,12 +2,12 @@
 const WhatsappIcon = () => {
   return (
     <a
-      href="https://api.whatsapp.com/send?phone=5492616708100"
+      href="https://api.whatsapp.com/send?phone=5492615637856"
       target="_blank"
       rel="noopener"
     >
       <img
-        src="whatsapp.png"
+        src="/whatsapp.png"
         alt="building icon logo construcciones San Nicolás"
         height="60"
         width="60"

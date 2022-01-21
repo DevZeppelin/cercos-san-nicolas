@@ -1,6 +1,6 @@
 import MainBarButton from "./MainBarButton";
 import { FaWhatsapp } from "react-icons/fa";
-import { FiMail } from "react-icons/fi";
+import { FiMail, FiPhoneCall } from "react-icons/fi";
 import Link from "next/dist/client/link";
 
 const Footer = () => {
@@ -12,7 +12,7 @@ const Footer = () => {
             <Link href="/">
               <a href="">
                 <img
-                  src="logo.png"
+                  src="/logo.png"
                   alt="building icon logo construcciones San Nicolás"
                   height="160"
                   width="280"
@@ -29,7 +29,21 @@ const Footer = () => {
         <div className="text-lg">
           <h2 className="font-extrabold">¡Contactanos hoy!</h2>
           <a
-            href="https://api.whatsapp.com/send?phone=5492616708100"
+            href="https://api.whatsapp.com/send?phone=5492615579954"
+            target="_blank"
+            rel="noopener"
+          >
+            <MainBarButton
+              logo={
+                <FiPhoneCall className="text-lgreen text-2xl flex my-auto m-2" />
+              }
+              text="Whatsapp Chat"
+              description="+5492615579954"
+              classType=""
+            />
+          </a>
+          <a
+            href="https://api.whatsapp.com/send?phone=5492615637856"
             target="_blank"
             rel="noopener"
           >
@@ -38,17 +52,17 @@ const Footer = () => {
                 <FaWhatsapp className="text-lgreen text-2xl flex my-auto m-2" />
               }
               text="Whatsapp Chat"
-              description="+5492616502121"
+              description="+5492615637856"
               classType=""
             />
           </a>
-          <a href="mailto:cercossannicolas@gmail.com" target="_blank" rel="noopener">
+          <a href="mailto:cercos.sannicolas@gmail.com" target="_blank" rel="noopener">
             <MainBarButton
               logo={
                 <FiMail className="text-lgreen text-2xl flex my-auto m-2" />
               }
               text="Correo electrónico"
-              description="cercossannicolas@gmail.com"
+              description="cercos.sannicolas@gmail.com"
               classType=""
             />
           </a>

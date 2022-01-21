@@ -31,8 +31,9 @@ const QuienesSomos = () => {
             </div>
             <div>
               <img
-                src="logo.png"
+                src="/03.jpeg"
                 alt="building icon logo construcciones San Nicolás"
+                className="p-4 w-96 h-96"
                 
               />
             </div>
