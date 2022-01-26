@@ -50,37 +50,58 @@ export default function Home() {
               </div>
             </Fade>
             <Fade bottom>
-              <Link href="/services/cercoAlambre">
+              <Link href="/services/cercoTradicional">
                 <a href="">
-                  <GridComponent name="Cercos de alambre" src="001.png" />
+                  <GridComponent name="Cercos tradicionales" src="0001.png" />
                 </a>
               </Link>
             </Fade>
             <Fade bottom>
               <Link href="/services/cercoMaterial">
                 <a href="">
-                  <GridComponent name="Cercos de material" src="002.png" />
+                  <GridComponent name="Cierres con postes Hormigón " src="0002.png" />
+                </a>
+              </Link>
+            </Fade>
+            <Fade bottom>
+              <Link href="/services/cercoCarcel">
+                <a href="">
+                  <GridComponent name="Cierres tipo cárcel" src="0003.png" />
+                </a>
+              </Link>
+            </Fade>
+            <Fade bottom>
+              <Link href="/services/cercoAcmafort">
+                <a href="">
+                  <GridComponent name="Cierres con malla Acmafort" src="0004.png" />
+                </a>
+              </Link>
+            </Fade>
+            <Fade bottom>
+              <Link href="/services/cercoPremoldeado">
+                <a href="">
+                  <GridComponent name="Cierres premoldeados de Hormigón" src="0005.png" />
                 </a>
               </Link>
             </Fade>
             <Fade bottom>
               <Link href="/services/cercoRustico">
                 <a href="">
-                  <GridComponent name="Cercos rústicos" src="003.png" />
+                  <GridComponent name="Alambrados Rurales" src="0006.png" />
                 </a>
               </Link>
             </Fade>
             <Fade bottom>
-              <Link href="/services/obrasGeneral">
+              <Link href="/services/cercoElectrosoldado">
                 <a href="">
-                  <GridComponent name="Obras en general" src="004.png" />
+                  <GridComponent name="Cierres con malla Electresoldada" src="0007.png" />
                 </a>
               </Link>
             </Fade>
             <Fade bottom>
               <Link href="/services/obrasMenores">
                 <a href="">
-                  <GridComponent name="Obras menores" src="005.png" />
+                  <GridComponent name="Obras en general" src="005.png" />
                 </a>
               </Link>
             </Fade>
