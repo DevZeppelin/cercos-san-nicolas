@@ -26,12 +26,12 @@ const SectionWelcome = () => {
   return (
     <section>
       <div>
-        <div className="flex relative overflow-hidden md:grid md:grid-cols-2 text-lg px-8 md:px-24 bg-lightGray background-overlay">
-          <div className="first-block space-y-4 md:space-y-5 p-10 my-auto bg-white z-40 opacity-70 md:opacity-100 h-full">
+        <div className="flex relative overflow-hidden md:grid md:grid-cols-2 text-lg px-6 md:px-24 bg-lightGray background-overlay">
+          <div className="first-block space-y-4 md:space-y-5 p-8 my-auto bg-white z-40 opacity-70 md:opacity-100 h-full">
             <h1 className="font-extrabold text-xl md:text-4xl">
               SOMOS EXPERTOS EN CERCOS PERIMETRALES Y SERVICIOS EN GENERAL
             </h1>
-            <div className="h-1 w-64 bg-dgreen mx-auto"></div>
+            <div className="h-1 w-56 bg-dgreen mx-auto"></div>
             <p className="text-base">
               {" "}
               Somos una empresa dedicada a la construcción,

@@ -25,7 +25,7 @@ const TopMainScreen = () => {
       <div className="hidden md:flex justify-between space-x-2 text-center my-auto p-2">
         <MainBarButton
           logo={<FiPhoneCall className="text-dgreen text-4xl flex my-auto m-2" />}
-          text="Tel. de contacto"
+          text="Llamadas"
           description="+5492615579954"
           classType="text-dgreen font-bold"
         />

@@ -89,7 +89,8 @@ const Contacto = () => {
               marginHeight="0"
               marginWidth="0"
               scrolling="no"
-              src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=mendoza,lavalle,3demayo&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+             /*  src="https://maps.google.com/?ll=-32.94102468894031,-68.83121268374084" */
+              src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;ll=-32.941024,-68.831212&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
             ></iframe>
           </div>
           <div className="container px-5 py-24 min-h-screen mx-auto flex"></div>
