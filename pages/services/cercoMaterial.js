@@ -12,8 +12,8 @@ const cercoMaterial = () => {
         • Opción alambre púa o concertina "
         text1="Nuestra empresa lleva años instalando cercos perimetrales de todo tipo, adaptándonos a las necesidades del cliente."
         text2="Instalamos cercos de material de bloques encastrados que otorgan una mayor seguridad y presencia a la propiedad. Priorizamos dejar un trabajo terminado de buena presencia y calidad."
-        text3="Estos cercos de material son ideales para cierres que requieren una mayor seguridad y privacidad."
-        text4="A continuación otro tipo de cierre con poste"
+        text4="Estos cercos de material son ideales para cierres que requieren una mayor seguridad y privacidad."
+      
         src2="/postecentral.png"
         title2="Cierres con postes Hormigón (intermedio y esquinero)"
       />
